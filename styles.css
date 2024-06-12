@@ -437,3 +437,12 @@ video{
 	transform: scale(1.2);
 	transition: .3s;
 }
+.qr1{
+	text-decoration: none;
+	color: #0D2F07;
+}
+.qr1:hover{
+	text-transform: scale(1.3);
+	transition: .3s;
+	color: #364332;
+}
