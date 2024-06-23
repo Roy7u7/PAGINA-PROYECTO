@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HYDRO COACH</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
 <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwLd-GDIGvKL3qCPw-cTuNxw9LJCpVyvkSWsk8CRosr1ztTDC98InGD_vQREl_3Z77Ml5xqKuHcq1i9kMSsEIK3Wv_E3_4CFD3ge6mI1EFhZhJJPdfEG3-8ltzfDMsjjHf83hflqdcyyTjQzAWr0CLG2QhaZ07uQQknbufF5hF6iCAERp0O9G4P0sL1n0/s1600/logo.jpeg">
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 <script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
@@ -196,6 +197,72 @@ MEDALLA<br>
 			<a href="https://drive.google.com/drive/folders/1ztBbCeCv8ghjzMddT0-7r6LhSCuqQXDW?usp=sharing" target="_blank"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjGx1Q0aK_1Ygmq2tw4xmUXBLlzRjsaPxZT3dzcgKPOdhRZ5tEklhVHYbGxdNEV2-1wz-L2P8pMEFSFKzJdNOsmNpgQEA4uVMH9rz8j3gZcAmQFyPI5kYQ4-OrdLiuKwneDIe_r9B7KsfA4Lv9xveCPe6sSH90DwWmm1DdT12TqqtZaSD916ye4q-cHSI/s1650/Formato%20Evaluaci%C3%B3n%20Heur%C3%ADstica_page-0001.jpg" width="40%"></a>
 			<a href="https://drive.google.com/drive/folders/1ztBbCeCv8ghjzMddT0-7r6LhSCuqQXDW?usp=sharing" target="_blank"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4LPdXcCo_kovUY_il7CEYn3LJ61qSizD00rcsW8eOgo5auCkxWIGldNyaemYBte1b8U8SpaCiTceWuMV1Q803Kz8-7z_l7hrSDzvqikqP2jrYXFbxWPqYAvTjGhUf_QjX_B851HkvLev825R6jwv8EwTFzLMH5sT92DPCPoExfU_IWfg5fIqvzikZKXw/s1650/Formato%20Evaluaci%C3%B3n%20Heur%C3%ADstica%20Contestado_page-0001.jpg" width="40%"></a>
 		</div>
+
+		<div class="qr" style="width: 100%; text-align: center; margin-bottom: 80px;"> 
+			<p style="font-size: 40px; color: #5F785C;"><b>- PRUEBAS DE USUARIO -</b>
+				<p style="font-size: 20px; width: 70%; margin: auto; color:black; text-align: justify;">
+				<b>• Diseño</b><br><br><br>
+
+				El diseño final de la interfaz para la aplicación HIDROCOACH está centrado en motivar a los usuarios a tomar agua, utilizando una paleta de colores azules que transmiten calma y frescura. Además de adaptar los colores para personas con daltonismo.<br><br>
+				Para diseñar una aplicación accesible para personas con daltonismo, es fundamental seleccionar colores que sean fácilmente distinguibles para ellos. Se utilizaron combinaciones de colores con alto contraste la cual facilita la distinción de elementos y mejora la experiencia del usuario. Algunas herramientas y librerías de diseño, como ColorBrewer y oftalmosalud nos ayudaron a conocer las opciones accesibles para daltónicos.<br><br>
+				En este caso, se intentó hacer una combinación y mezcla de tonalidades como Azul Gris Claro (#7B9BB0) y Azul marino (#0E3F5D), asegurando que los elementos de la aplicación sean claramente distinguibles para todos los usuarios, incluyendo aquellos con daltonismo.<br><br><br><br>
+				<div style="width: 80%; text-align: center; margin: auto;">
+					<div style="width: 29.3%; background-color: #DBFFFF; padding: 20px; color: black; float: left; font-size: 25px; margin: 10px;">#DBFFFF</div>
+					<div style="width: 29.3%; background-color: #7B9BB0; padding: 20px; color: lightgray; float: left; font-size: 25px; margin: 10px;">#7B9BB0</div>
+					<div style="width: 29.3%; background-color: #0E3F5D; padding: 20px; color: white; float: left; font-size: 25px; margin: 10px;">#0E3F5D</div>
+				</div>
+				</p>
+				<p style="font-size: 20px; width: 70%; margin: auto; color:black; text-align: justify; clear: both;"><br><br><br><br><br><br>
+				<b>• Implementación</b><br><br><br>
+				Fue un proceso iterativo que involucró decisiones de diseño importantes para optimizar la usabilidad y funcionalidad de la aplicación. Aunque se enfrentaron problemas de implementación, estos fueron abordados y resueltos mediante ajustes en la gestión del estado, optimización para diferentes dispositivos, mejora de la carga de datos y cumplimiento con los estándares de accesibilidad. El resultado es una aplicación fluida y motivadora, coherente con su propósito de ayudar a los usuarios a mantenerse hidratados.<br><br>
+				Arquitectura de Software<br><br>
+•	Backend:<br><br><br>
+o	Servidor de Aplicaciones: Maneja las solicitudes de los usuarios, procesando datos y ejecutando lógica empresarial. Puede estar implementado usando frameworks como Django, Flask, Node.js, etc.<br><br>
+o	Base de Datos: Almacena información sobre el consumo de agua, datos de usuarios, configuraciones de dispositivos, etc. Bases de datos comunes incluyen PostgreSQL, MySQL, MongoDB, etc.<br><br>
+o	API RESTful: Permite la comunicación entre el servidor y las aplicaciones cliente (móvil/web). Las API RESTful facilitan la integración y la extensión de servicios.<br><br><br>
+•	Frontend:<br><br><br>
+o	Aplicación Web/Móvil: Interfaces de usuario desarrolladas usando tecnologías como React, Angular, Vue.js para la web, y Swift/Kotlin para aplicaciones móviles. Estas interfaces permiten a los usuarios visualizar y controlar su consumo de agua.<br><br><br>
+
+				</p>
+				<div style="width: 80%; text-align: center; margin: auto;"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTIBfXczwT9wQCZGBFnGFctqHfscXhO95B4pWlFxAoHZumUt0f3s7hG2HpUMqJ4bIQDHSFJdCD92lfqtGNdUpMgtzn2h67gXuDV71jdLgid0LzylXpttFQ9DPRsvkM3B2_gGBmpQBFAfhA-l-NcyJMQ7ZeLnzswStvcLbBr6z4ImHafEwAeEtMjQiuyJo/w802-h328/Imagen2.jpg" width="60%"></div>
+				<p style="font-size: 20px; width: 70%; margin: auto; color:black; text-align: justify; clear: both;"><br><br><br><br><br><br>
+				<b>• Evaluación</b><br><br><br>
+				Prueba de Usuario<br><br>
+
+Conducción de la Prueba de Usuario: La prueba de usuario de HIDROCOACH se condujo en varias fases, siguiendo un enfoque estructurado para obtener retroalimentación detallada y útil.<br><br><br><br>
+
+<u>1. Preparación:</u><br><br><br>
+   - Se diseñaron escenarios de uso específicos y se definieron las tareas que los usuarios debían realizar.<br><br>
+   - Se prepararon los prototipos para entregárselos a los usuarios. <br><br><br>
+
+<u>2. Reclutamiento de Usuarios:</u><br><br><br>
+   - Se seleccionaron usuarios aleatoriamente, incluyendo una variedad de edades.<br><br><br>
+
+<u>3. Realización de la Prueba:</u><br><br><br>
+   - Las pruebas se realizaron en un entorno controlado, con observadores anotando las acciones y reacciones de los usuarios.<br><br>
+   - Se utilizaron grabaciones de pantalla y registros escritos para capturar datos adicionales sobre la interacción de los usuarios con la aplicación.<br><br><br><br><br>
+
+   <b>Informar a los Usuarios y Tareas Realizadas</b><br><br><br>
+
+   <u>1. Informar a los Usuarios:</u><br><br><br>
+   - Se explicó a los usuarios el propósito de la prueba y se les informo que sus comentarios serían usados para mejorar la aplicación.<br><br><br>
+   
+
+<u>2. Tareas Realizadas:</u><br><br><br>
+   - Crear una cuenta y configurar un perfil personal.<br><br>
+   - Navegar por el inicio y comprender el menú.<br><br>
+   - Configurar recordatorios de hidratación.<br><br>
+   - Revisar los desafíos y completar uno.<br><br>
+   - Acceder a la información de la aplicación, referente al agua.<br><br><br>
+
+				</p>
+				<p style="font-size: 40px; color: #5F785C;"><b> REFLEXIONES</b>
+				<div style="width: 21.5%; border-radius: 50%; padding: 20px; color:#46584C; float: left; font-size: 25px; margin: 10px;"><a class="qr1" target="_blank" href="https://drive.google.com/file/d/1knuzyMCN2YK3Lf22f3AcW6v2cPmJN6jv/view?usp=drive_link" style="text-decoration: none; color:#46584C;"><b>LARA CAMPOS RODRIGO</b><br><br><br><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZpzo_fqSkTgmiVnmKb_l3Yb8i2gnLIA7a1LbmJIjMNuBy6otQivlz-lLpA91YvLBN4TNfcIEONFDhhuNptX3ccMxkhae1K-Ch5Y0FCraupqQq0cbtpeZezD1zxl9bRtvduQ-SpoW2JJIYv69dCTpXQ2eFrhvhVvK5c2FNdClzTHIuU7MyGTmRrTj6RM/w250-h250/person_48dp_FILL1_wght400_GRAD0_opsz48.png" width="50%"></a></div>
+				<div style="width: 21.5%; border-radius: 50%; padding: 20px; color:#46584C; float: left; font-size: 25px; margin: 10px;"><a class="qr1" target="_blank" href="https://drive.google.com/file/d/1rqeBd2PfpQnH0b5vwTYlCno7OZdA528E/view?usp=drive_link" style="text-decoration: none; color:#46584C;"><b>HERNÁNDEZ DE LOS SANTOS JOSÉ MAXIMILIANO</b><br><br><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZpzo_fqSkTgmiVnmKb_l3Yb8i2gnLIA7a1LbmJIjMNuBy6otQivlz-lLpA91YvLBN4TNfcIEONFDhhuNptX3ccMxkhae1K-Ch5Y0FCraupqQq0cbtpeZezD1zxl9bRtvduQ-SpoW2JJIYv69dCTpXQ2eFrhvhVvK5c2FNdClzTHIuU7MyGTmRrTj6RM/w250-h250/person_48dp_FILL1_wght400_GRAD0_opsz48.png" width="50%"></a></div>
+				<div style="width: 21.5%; border-radius: 50%; padding: 20px; color:#46584C; float: left; font-size: 25px; margin: 10px;"><a class="qr1" target="_blank" href="https://drive.google.com/file/d/1crBEV2g3O23r1panMre828Y79eun3QIH/view?usp=drive_link" style="text-decoration: none; color:#46584C;"><b>ABURTO PÉREZ KARLA PAOLA</b><br><br><br><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZpzo_fqSkTgmiVnmKb_l3Yb8i2gnLIA7a1LbmJIjMNuBy6otQivlz-lLpA91YvLBN4TNfcIEONFDhhuNptX3ccMxkhae1K-Ch5Y0FCraupqQq0cbtpeZezD1zxl9bRtvduQ-SpoW2JJIYv69dCTpXQ2eFrhvhVvK5c2FNdClzTHIuU7MyGTmRrTj6RM/w250-h250/person_48dp_FILL1_wght400_GRAD0_opsz48.png" width="50%"></a></div>
+				<div style="width: 21.5%; border-radius: 50%; padding: 20px; color:#46584C; float: left; font-size: 25px; margin: 10px;"><a class="qr1" target="_blank" href="https://drive.google.com/file/d/1bp-1-m4j1pydd1_MEfBGGBCRZzxXfSuW/view?usp=drive_link" style="text-decoration: none; color:#46584C;"><b>DIÁZ ZARAGOZA ALDO JOVANY</b><br><br><br><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbZpzo_fqSkTgmiVnmKb_l3Yb8i2gnLIA7a1LbmJIjMNuBy6otQivlz-lLpA91YvLBN4TNfcIEONFDhhuNptX3ccMxkhae1K-Ch5Y0FCraupqQq0cbtpeZezD1zxl9bRtvduQ-SpoW2JJIYv69dCTpXQ2eFrhvhVvK5c2FNdClzTHIuU7MyGTmRrTj6RM/w250-h250/person_48dp_FILL1_wght400_GRAD0_opsz48.png" width="50%"></a></div>
+		</div>
+
   <section class="footer_banner">
     <h2 class="hidden">Footer Banner Section </h2>
     <p class="hero_header" style="font-size: 30px; clear: both;">•INTEGRANTES•<br>
